@@ -1,0 +1,10 @@
+# log file
+*.log
+
+# exe file
+*.exe
+
+# files
+.gitignore/
+dist/
+node_modules/

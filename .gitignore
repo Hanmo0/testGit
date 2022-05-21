@@ -5,6 +5,5 @@
 *.exe
 
 # files
-.gitignore/
 dist/
 node_modules/

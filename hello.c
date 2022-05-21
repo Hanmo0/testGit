@@ -9,10 +9,11 @@ int add(int a, int b)
 
 int main()
 {
-    int a, b;
+    int a, b, c;
 
     printf("input two numbers:\r\n");
     scanf("%d %d", &a, &b);
-    printf("sum is %d", add(a, b));
+    c = add(a, b);
+    printf("sum is %d", c);
     return 0;
 }

@@ -13,8 +13,7 @@ int main()
 
     printf("input two numbers:\r\n");
     scanf("%d %d", &a, &b);
-    c = add(a, b); // a + b
-    c = add(a, c);
+    c = add(a, b);
     printf("sum is %d", c);
     return 0;
 }

@@ -14,7 +14,7 @@ int main()
     printf("input two numbers:\r\n");
     scanf("%d %d", &a, &b);
     c = add(a, b);
-    printf("sum is %d", c);
+    c = add(c, b);
     printf("sum is %d", c);
     return 0;
 }
